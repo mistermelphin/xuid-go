@@ -35,8 +35,8 @@ id := xuid.New() // generate new XUID
 fmt.Println(id) // prints XUID as string
 fmt.Println(id.String()) // same result as previous
 
-id = xuid.MustParse('1Od2S4tZTQyMkM3NCCTP9Q') // parses XUID string
-id = xuid.MustParse('b5838375-c297-4ecc-a002-ad42e8c4f515') // parses UUID string and converts it to XUID
+id = xuid.MustParse("1Od2S4tZTQyMkM3NCCTP9Q") // parses XUID string
+id = xuid.MustParse("b5838375-c297-4ecc-a002-ad42e8c4f515") // parses UUID string and converts it to XUID
 ```
 
 Converts XUID to UUID
