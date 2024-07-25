@@ -8,7 +8,8 @@ A UUID v4 is a great choice as a primary key for your database tables.
 
 But, they are quite long to use in URLs and databases : 32 alphanumeric characters and four hyphens (36 characters total)
 
-A XUID is a UUID, converted into a 128-bit value, converted into a base64 string (stripped from padding characters), then converted into url-safe base64 (replacing `+` and `/` into `-` and `_` respectively - custom mappings available, see below for more info).
+A XUID is a UUID, converted into a 128-bit value, converted into a base64 string (stripped from padding characters), 
+then converted into url-safe base64 (replacing `+` and `/` into `-` and `_` respectively).
 
 This gives you a 22 character string, safe to use in URLs.
 
